@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    list-style: none;
+    background: deepskyblue;
+}
+
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+}
+
+.navigation a:hover {
+    background: #1565C0;
+}
+
+.div {
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    background-color: salmon;
+}
+
+a {
+    background-color: skyblue;
+    margin: 20px;
+}
